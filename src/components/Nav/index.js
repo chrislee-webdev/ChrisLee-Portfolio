@@ -1,19 +1,39 @@
 // NAV-COMPONENT
 
-import React from "react";
+import React, { useEffect } from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav() {
+function Nav(props) {
+    const {
+        projectList = [],
+        setCurrentProjects,
+        currentProjects
+    } = props
 
-    const projectList = [
-        {
-            name: "portfolio",
-            description: "Projects that I have worked on"
-        }
-    ]
+    // useEffect
+    useEffect(() => {
+        document.title = capitalizeFirstLetter(currentProjects.name);        
+    }, [currentProjects]);
 
-    function portfolioSelected(name) {
-        console.log(`${name} clicked`)
-    }
+    // const [projectList] = useState([
+    //     {
+    //         name: "portfolio",
+    //         description: "Projects that I have worked on"
+    //     }
+    // ])
+
+    // const projectList = [
+    //     {
+    //         name: "portfolio",
+    //         description: "Projects that I have worked on"
+    //     }
+    // ]
+
+    // const [currentProjects, setCurrentProjects] = useState(projectList[0]);
+
+    // function portfolioSelected(name) {
+    //     console.log(`${name} clicked`)
+    // }
 
     return (
         <header>
@@ -35,11 +55,16 @@ function Nav() {
 
                     {projectList.map((portfolio) => (
                         <li
-                            className="mx-2"
+                            className={`mx-2 ${
+                                currentProjects.name === portfolio.name &&
+                            'navActive'}`}
                             key={portfolio.name}
                         >
-                            <span onClick={portfolioSelected} >
-                                {portfolio.name}
+                            <span
+                                onClick={() => {setCurrentProjects(portfolio)
+                                }}
+                            >
+                                {capitalizeFirstLetter(portfolio.name)}
                             </span>
                         </li>
                     ))}
