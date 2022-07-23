@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
+import ContactForm from './components/Contact';
 import ProjectImages from './components/ProjectImages';
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       >
       </Nav>
       <main>
-        <ProjectImages></ProjectImages>
+        <ContactForm></ContactForm>
+        <ProjectImages currentProjects={currentProjects}></ProjectImages>
         <About></About>
       </main>
     </div>

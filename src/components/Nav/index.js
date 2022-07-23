@@ -46,11 +46,11 @@ function Nav(props) {
                     </li> 
 
                     <li className="mx-2">
-                        <a href="mx-2">Contact</a>  
+                        <a href="contact">Contact</a>  
                     </li>
 
                     <li className="mx-2">
-                        <a href="mx-2">Resume</a>
+                        <a href="resume">Resume</a>
                     </li>
 
                     {projectList.map((portfolio) => (
