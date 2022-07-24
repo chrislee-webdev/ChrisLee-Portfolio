@@ -5,7 +5,7 @@ import React from "react";
 function Portfolio() {
 
     return (
-        <section>
+        <section className="my-5">
             <h2>Portfolio</h2>
             <div className="flex-row">
                 <div>

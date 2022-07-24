@@ -4,7 +4,7 @@ import React from "react";
 
 function Resume() {
     return(
-        <section>
+        <section className="my-5">
             <h2>Resume</h2>
 
             <p>
