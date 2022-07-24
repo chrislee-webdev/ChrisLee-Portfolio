@@ -37,7 +37,11 @@ main {
 html,
 body {
   min-height: 100%;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 body {
   margin: 0;
@@ -73,6 +77,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -107,6 +113,12 @@ a:hover {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
   background: var(--dark);
 }
 
@@ -144,7 +156,9 @@ span[role='img'] {
 }
 
 form {
-  width: 40%;
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 input {
@@ -183,8 +197,6 @@ textarea {
 .container {
   width: 85%;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-row {
@@ -223,6 +235,9 @@ textarea {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .px-1 {
@@ -306,6 +321,12 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+section {
+  max-width: 75%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 footer {

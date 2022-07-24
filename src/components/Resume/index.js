@@ -5,7 +5,7 @@ import React from "react";
 function Resume() {
     return(
         <section>
-            <h1>Resume</h1>
+            <h2>Resume</h2>
 
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tellus purus, commodo vel dolor id, ullamcorper viverra quam. Ut non finibus lectus, ut porttitor velit. Integer sapien felis, egestas ut massa ut, imperdiet mollis ligula. Curabitur nec odio dapibus arcu finibus suscipit. Aliquam luctus mauris quam, quis gravida mi venenatis non. Proin ullamcorper feugiat lectus eu pretium. Aenean quis odio risus. Mauris vel velit blandit, bibendum lacus in, fringilla risus. Mauris rutrum lacinia fringilla. Aenean bibendum erat ultrices, accumsan lorem et, accumsan lacus.
