@@ -28,9 +28,15 @@ function App() {
       >
       </Nav>
       <main>
-        {
-          <About></About>
-        }
+
+        <About></About>
+
+        <ContactForm></ContactForm>
+
+        <Resume></Resume>
+
+        <Portfolio></Portfolio>
+        
       </main>
       <Footer></Footer>
     </div>
