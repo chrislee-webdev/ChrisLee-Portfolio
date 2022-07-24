@@ -1,10 +1,8 @@
 // PORTFOLIO-COMPONENT
 
 import React from "react";
-// import { capitalizeFirstLetter } from '../../utils/helpers'
-// import image from "../../assets/images/image1.jpg"
 
-function ProjectImages({props}) {
+function Portfolio() {
 
     return (
         <section>
@@ -21,7 +19,7 @@ function ProjectImages({props}) {
                 <div>
                 <p>Project name</p>
                 <img
-                    src={require("../../assets/images/image1.jpg")}
+                    src={require("../../assets/images/project2.jpg")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
@@ -30,7 +28,7 @@ function ProjectImages({props}) {
                 <div>
                 <p>Project name</p>
                 <img
-                    src={require("../../assets/images/image1.jpg")}
+                    src={require("../../assets/images/project3.jpg")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
@@ -38,7 +36,7 @@ function ProjectImages({props}) {
                 <div>
                 <p>Project name</p>
                 <img
-                    src={require("../../assets/images/image1.jpg")}
+                    src={require("../../assets/images/project4.jpg")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
@@ -46,7 +44,7 @@ function ProjectImages({props}) {
                 <div>
                 <p>Project name</p>
                 <img
-                    src={require("../../assets/images/image1.jpg")}
+                    src={require("../../assets/images/project5.jpg")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
@@ -54,9 +52,10 @@ function ProjectImages({props}) {
                 <div>
                 <p>Project name</p>
                 <img
-                    src={require("../../assets/images/image1.jpg")}
+                    src={require("../../assets/images/project6.jpg")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
+                    
                 />
                 </div>
             </div>
@@ -64,4 +63,4 @@ function ProjectImages({props}) {
     )
 }
 
-export default ProjectImages;
+export default Portfolio;

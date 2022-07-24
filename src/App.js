@@ -11,36 +11,30 @@ import Footer from './components/Footer';
 function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
 
-  const [projectList] = useState([
-    {
-      name: "portfolio",
-      description: "Projects I have worked on"
-    }
-  ]);
-
-  const [currentProjects, setCurrentProjects] = useState(projectList[0]);
-
-  return (
+   return (
     <div>
       <Nav
-        projectList={projectList}
-        setCurrentProjects={setCurrentProjects}
-        currentProjects={currentProjects}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
       >
       </Nav>
       <main>
         {!contactSelected ? (
           <About></About>
         ) : (
+          <>
           <ContactForm></ContactForm>
+          <Resume></Resume>
+          <Portfolio></Portfolio>
+          </>
         )}
-
-        <Resume></Resume>
-
-        <Portfolio></Portfolio>
       </main>
       <Footer></Footer>
     </div>
