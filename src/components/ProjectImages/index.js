@@ -41,6 +41,30 @@ function ProjectImages({props}) {
                     className="img-thumbnail mx-1"
                 />
                 </div>
+                <div>
+                <p>Project name</p>
+                <img
+                    src={image}
+                    alt="Project Example"
+                    className="img-thumbnail mx-1"
+                />
+                </div>
+                <div>
+                <p>Project name</p>
+                <img
+                    src={image}
+                    alt="Project Example"
+                    className="img-thumbnail mx-1"
+                />
+                </div>
+                <div>
+                <p>Project name</p>
+                <img
+                    src={image}
+                    alt="Project Example"
+                    className="img-thumbnail mx-1"
+                />
+                </div>
             </div>
         </section>
     )

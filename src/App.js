@@ -5,6 +5,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import ProjectImages from './components/ProjectImages';
+import Resume from './components/Resume';
 
 function App() {
 
@@ -30,9 +31,6 @@ function App() {
       >
       </Nav>
       <main>
-        {/* <ContactForm></ContactForm>
-        <ProjectImages currentProjects={currentProjects}></ProjectImages>
-        <About></About> */}
         {!contactSelected ? (
           <>
           <ProjectImages currentProjects={currentProjects}></ProjectImages>

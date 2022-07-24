@@ -53,12 +53,12 @@ function ContactForm() {
     <h1>Contact me</h1>
     <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name:</label> <br></br>
             <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
 
         <div>
-            <label htmlFor="email">Email address:</label>
+            <label htmlFor="email">Email address:</label> <br></br>
             <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
 
