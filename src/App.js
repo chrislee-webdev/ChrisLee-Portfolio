@@ -4,8 +4,9 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
-import ProjectImages from './components/ProjectImages';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -32,14 +33,16 @@ function App() {
       </Nav>
       <main>
         {!contactSelected ? (
-          <>
-          <ProjectImages currentProjects={currentProjects}></ProjectImages>
           <About></About>
-          </>
         ) : (
           <ContactForm></ContactForm>
         )}
+
+        <Resume></Resume>
+
+        <Portfolio></Portfolio>
       </main>
+      <Footer></Footer>
     </div>
   );
 }

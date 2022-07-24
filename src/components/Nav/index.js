@@ -17,26 +17,6 @@ function Nav(props) {
         document.title = capitalizeFirstLetter(currentProjects.name);        
     }, [currentProjects]);
 
-    // const [projectList] = useState([
-    //     {
-    //         name: "portfolio",
-    //         description: "Projects that I have worked on"
-    //     }
-    // ])
-
-    // const projectList = [
-    //     {
-    //         name: "portfolio",
-    //         description: "Projects that I have worked on"
-    //     }
-    // ]
-
-    // const [currentProjects, setCurrentProjects] = useState(projectList[0]);
-
-    // function portfolioSelected(name) {
-    //     console.log(`${name} clicked`)
-    // }
-
     return (
         <header>
             <h1 className="mx-2">Christopher Lee</h1>
@@ -55,21 +35,9 @@ function Nav(props) {
                         <span onClick={() => setContactSelected(true)}>Resume</span>
                     </li>
 
-                    {projectList.map((portfolio) => (
-                        <li
-                            className={`mx-2 ${
-                                currentProjects.name === portfolio.name && !contactSelected &&
-                            'navActive'}`}
-                            key={portfolio.name}
-                        >
-                            <span
-                                onClick={() => {setCurrentProjects(portfolio)
-                                }}
-                            >
-                                {capitalizeFirstLetter(portfolio.name)}
-                            </span>
-                        </li>
-                    ))}
+                    <li className={`mx-2 ${!contactSelected && 'navActive'}`}>
+                        <span onClick={() => setContactSelected(true)}>Portfolio</span>
+                    </li>
                 </ul>
             </nav>
         </header>

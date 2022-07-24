@@ -308,4 +308,9 @@ a {
   color: var(--secondary);
 }
 
-
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
