@@ -8,6 +8,8 @@ import ProjectImages from './components/ProjectImages';
 
 function App() {
 
+  const [contactSelected, setContactSelected] = useState(false);
+
   const [projectList] = useState([
     {
       name: "portfolio",
@@ -23,12 +25,22 @@ function App() {
         projectList={projectList}
         setCurrentProjects={setCurrentProjects}
         currentProjects={currentProjects}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       >
       </Nav>
       <main>
-        <ContactForm></ContactForm>
+        {/* <ContactForm></ContactForm>
         <ProjectImages currentProjects={currentProjects}></ProjectImages>
-        <About></About>
+        <About></About> */}
+        {!contactSelected ? (
+          <>
+          <ProjectImages currentProjects={currentProjects}></ProjectImages>
+          <About></About>
+          </>
+        ) : (
+          <ContactForm></ContactForm>
+        )}
       </main>
     </div>
   );
