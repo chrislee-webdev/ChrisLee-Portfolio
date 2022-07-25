@@ -21,9 +21,9 @@ main {
   --primary: #29335C;
   --secondary: #f3a847;
   --tertiary: #b12704;
-  --light: black;
-  --dark: #70a0af;
-  --darker: #cfb1b7;
+  --light: #1F487E;
+  --dark: #AFD2E9;
+  --darker: #EF6F6C;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -307,9 +307,11 @@ a {
 
 footer {
  width: 100%;
+ height: 100px;
  display: flex;
  flex-direction: row;
  justify-content: space-around;
+ align-items: center;
  background-color: var(--darker);
 }
 
@@ -330,4 +332,8 @@ footer {
 
 section {
   height: 90vh;
+}
+
+.download{
+  cursor: pointer;
 }
