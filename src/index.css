@@ -337,3 +337,7 @@ section {
 .download{
   cursor: pointer;
 }
+
+.nav-link.active {
+  color: #fff;
+}
