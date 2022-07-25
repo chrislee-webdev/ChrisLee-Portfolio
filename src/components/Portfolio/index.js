@@ -10,57 +10,75 @@ function Portfolio() {
             <div className="flex-row projectList">
 
                 <div className="projectInfo">
+                    <a href="https://intelligent-fromage-55037.herokuapp.com/">
                 <img
-                    src={require("../../assets/images/image1.jpg")}
+                    src={require("../../assets/images/budget-tracker.png")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
-                <p>Project name</p>
+                </a>
+                <p>Budget Tracker</p>
+                <a href="https://github.com/chrislee-webdev/pwa-budget-tracker">GitHub Repo</a>
                 </div>
 
                 <div className="projectInfo">
+                <a href="https://chrislee-webdev.github.io/password-generator/">    
                 <img
-                    src={require("../../assets/images/project2.jpg")}
+                    src={require("../../assets/images/password-generator.png")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
-                <p>Project name</p>
+                </a>
+                <p>Password Generator</p>
+                <a href="https://github.com/chrislee-webdev/password-generator">GitHub Repo</a>
                 </div>
 
                 <div className="projectInfo">
+                <a href="https://chrislee-webdev.github.io/workday-scheduler/">    
                 <img
-                    src={require("../../assets/images/project3.jpg")}
+                    src={require("../../assets/images/workday-scheduler.png")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
-                <p>Project name</p>
+                </a>
+                <p>Workday Scheduler</p>
+                <a href="https://github.com/chrislee-webdev/workday-scheduler">GitHub Repo</a>
                 </div>
 
                 <div className="projectInfo">
+                <a href="https://young-taiga-91229.herokuapp.com/">
                 <img
-                    src={require("../../assets/images/project4.jpg")}
+                    src={require("../../assets/images/note-taker.png")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
-                <p>Project name</p>
+                </a>
+                <p>Note Taker</p>
+                <a href="https://github.com/chrislee-webdev/note-taker">GitHub Repo</a>
                 </div>
 
                 <div className="projectInfo">
+                <a href="https://chrislee-webdev.github.io/weather-dashboard/">   
                 <img
-                    src={require("../../assets/images/project5.jpg")}
+                    src={require("../../assets/images/weather-dashboard.png")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"
                 />
-                <p>Project name</p>
+                </a>
+                <p>Weather Dashboard</p>
+                <a href="https://github.com/chrislee-webdev/weather-dashboard">GitHub Repo</a>
                 </div>
 
                 <div className="projectInfo">
+                <a href="https://github.com/chrislee-webdev/readme-generator">
                 <img
-                    src={require("../../assets/images/project6.jpg")}
+                    src={require("../../assets/images/code-refactor.png")}
                     alt="Project Example"
                     className="img-thumbnail mx-1"                    
                 />
-                <p>Project name</p>
+                </a>
+                <p>Code Refractor</p>
+                <a href="https://github.com/chrislee-webdev/urban-octo-challenge">GitHub Repo</a>
                 </div>
             </div>
         </section>

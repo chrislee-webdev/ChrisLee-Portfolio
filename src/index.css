@@ -14,16 +14,16 @@ code {
 
 main {
   margin: 0 auto;
-  max-width: 90%;
-  padding: 50px 30px;
+  max-width: 100%;
+  /* padding: 50px 30px; */
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #29335C;
   --secondary: #f3a847;
   --tertiary: #b12704;
-  --light: #f4ecd6;
-  --dark: #235789;
-  --darker: #111111;
+  --light: black;
+  --dark: #70a0af;
+  --darker: #cfb1b7;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -119,10 +119,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 50px;
-  background: var(--dark);
+  padding: 25px;
+  width: 100%;
+  background: var(--darker);
 }
 
 header a {
@@ -310,9 +309,8 @@ footer {
  width: 100%;
  display: flex;
  flex-direction: row;
- position: absolute;
- bottom: 15px;
  justify-content: space-around;
+ background-color: var(--darker);
 }
 
 .logoImages {
@@ -328,4 +326,8 @@ footer {
 .projectHeader {
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+section {
+  height: 90vh;
 }
