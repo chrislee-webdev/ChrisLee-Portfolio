@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/chrislee-portfolio/static/css/main.e69a7873.css",
+    "main.js": "/chrislee-portfolio/static/js/main.cf3b2c33.js",
+    "static/js/787.61015307.chunk.js": "/chrislee-portfolio/static/js/787.61015307.chunk.js",
+    "static/media/code-refactor.png": "/chrislee-portfolio/static/media/code-refactor.fe0b76c145d79754227b.png",
+    "static/media/budget-tracker.png": "/chrislee-portfolio/static/media/budget-tracker.fa84af37645f05f683f4.png",
+    "static/media/weather-dashboard.png": "/chrislee-portfolio/static/media/weather-dashboard.be1ea6e679bc48605f79.png",
+    "static/media/workday-scheduler.png": "/chrislee-portfolio/static/media/workday-scheduler.d2b9ed4a3d10a1a17de8.png",
+    "static/media/2021_Resume.pdf": "/chrislee-portfolio/static/media/2021_Resume.2c278388aec27cc74dff.pdf",
+    "static/media/note-taker.png": "/chrislee-portfolio/static/media/note-taker.39ad3e90e6a6c7f25f9d.png",
+    "static/media/password-generator.png": "/chrislee-portfolio/static/media/password-generator.68f38ca965c1e82ebb66.png",
+    "static/media/profilePhoto2.jpeg": "/chrislee-portfolio/static/media/profilePhoto2.36d360884da48af27e00.jpeg",
+    "static/media/GitHub_Logo_White.png": "/chrislee-portfolio/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
+    "static/media/twitter2021.png": "/chrislee-portfolio/static/media/twitter2021.f963dcac51d5020e10f3.png",
+    "index.html": "/chrislee-portfolio/index.html",
+    "main.e69a7873.css.map": "/chrislee-portfolio/static/css/main.e69a7873.css.map",
+    "main.cf3b2c33.js.map": "/chrislee-portfolio/static/js/main.cf3b2c33.js.map",
+    "787.61015307.chunk.js.map": "/chrislee-portfolio/static/js/787.61015307.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e69a7873.css",
+    "static/js/main.cf3b2c33.js"
+  ]
+}
