@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was the React Portfolio project. The task for this was to build a professional porfolio ite using React. The site is a Single Page Application that leverages React components to display various pages such as "About me", "Contact", "Portfolio" and "Resume" without the need to reload the entire web page. The finished product should be something that would appeal to prospective employers.
+This project was the React Portfolio project. The task for this was to build a professional porfolio using React. The site is a Single Page Application that leverages React components to display various pages such as "About me", "Contact", "Portfolio" and "Resume" without the need to reload the entire web page. The finished product should be something that would appeal to prospective employers.
 
 <img width="1243" alt="Screen Shot 2022-07-26 at 7 10 18 PM" src="https://user-images.githubusercontent.com/52810667/181133355-1ddce190-d642-4dd2-bcb9-2b757e761a76.png">
 
