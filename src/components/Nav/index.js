@@ -12,7 +12,7 @@ function Nav({ currentPage, handlePageChange}) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="about" onClick={() => handlePageChange('About')}
+                        <a onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                         >About me</a>
                     </li> 

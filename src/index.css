@@ -21,9 +21,9 @@ main {
   --primary: #29335C;
   --secondary: #f3a847;
   --tertiary: #b12704;
-  --light: #1F487E;
-  --dark: #AFD2E9;
-  --darker: #EF6F6C;
+  --light: #7796CB;
+  --dark: #F8F4f9;
+  --darker: #231B1B;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
