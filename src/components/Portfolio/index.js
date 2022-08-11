@@ -80,6 +80,18 @@ function Portfolio() {
                 <p>Code Refractor</p>
                 <a href="https://github.com/chrislee-webdev/urban-octo-challenge">GitHub Repo</a>
                 </div>
+
+                <div className="projectInfo">
+                    <a href="https://pet-pal-friend-finder.herokuapp.com/">
+                        <img
+                        src={require("../../assets/images/petpal.png")}
+                        alt="petpal"
+                        className="img-thumbnail mx-1"
+                    />
+                    <p>Pet Pal</p>
+                    <a href="https://github.com/chrislee-webdev/pet-tinder">GitHub Repo</a>
+                    </a>
+                </div>
             </div>
         </section>
     )
