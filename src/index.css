@@ -240,13 +240,15 @@ textarea {
   margin-bottom: var(--spacing-five);
   margin-left: auto;
   margin-right: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   width: 75%;
 }
 
 .my-5 img {
-  float: left;
-  margin-right: 25px;
-  border-radius: 50%;
+  /* float: left; */
+  margin-bottom: 25px; ;
 }
 
 .px-1 {
@@ -329,6 +331,10 @@ footer {
 .projectHeader {
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.projectList {
+  justify-content: space-between;
 }
 
 section {
