@@ -7,8 +7,12 @@ function Portfolio() {
     return (
         <section className="my-5">
             <h2 className="portfolioHeader">Portfolio</h2>
+            <div>
+                Download my resume 
+                <a href={require("../../assets/2022-Resume.pdf")} download className="download"> here</a>
+            </div>
+            
             <div className="flex-row projectList">
-
                 <div className="projectInfo">
                     <a href="https://intelligent-fromage-55037.herokuapp.com/">
                 <img

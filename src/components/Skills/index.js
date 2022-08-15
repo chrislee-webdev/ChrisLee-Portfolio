@@ -18,10 +18,10 @@ function Skills() {
                 <li>MongoDB</li>
                 <li>MySQL</li>
             </ul>
-            <div>
+            {/* <div>
                 Download my resume 
                 <a href={require("../../assets/2022-Resume.pdf")} download className="download"> here</a>
-            </div>
+            </div> */}
         </section>  
     )
 }

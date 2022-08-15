@@ -17,10 +17,10 @@ function Nav({ currentPage, handlePageChange}) {
                         >Home</a>
                     </li> 
 
-                    <li className="mx-2">
+                    {/* <li className="mx-2">
                         <span onClick={() => handlePageChange('Contact')}
                         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</span>  
-                    </li>
+                    </li> */}
 
                     <li className="mx-2">
                         <span onClick={() => handlePageChange('Skills')}
