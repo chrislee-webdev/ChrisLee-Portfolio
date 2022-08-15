@@ -8,14 +8,8 @@ function About() {
             <h2 id="about">About me</h2>
             <img src={require("../../assets/images/profilePhoto2.jpeg")} alt="Profile"></img>
             <p>
-            Hi! Thanks for taking the time to view my portfolio.
-            </p>
-
-            <p>My name is Chris Lee and I reside in Bloomington, Minnesota, just outside of Minneapolis. Though originally from New York, I have spent the majority of my life in Minnesota. I graduated from the University of Minnesota - Twin Cities with a degree in Psychology. I have spen the good amount of my professional career working in retail and sales. The last five years, I have worked as a at-home daycare provider with my fiance. This was an incredibly rewarding experience being a part of the lives of babies and watching them grow.</p>
-
-            <p>
-             Over the years, I have had an interest in web development but never really knew where to start nor did I have the confidence to learn such amazing new skills. At first I dabbled with free courses online and even signed up for a self-paced online program. During that time, I found that I really loved what I was learning, though by no means was it easy. Creating something that users can see on their web browsers with a few lines of code reminded me of building Legos as a child. When the pandemic came, my fiance and I re-evaluated what we wanted to do, what we wanted to get out of our careers and ultimately what we wanted to provide for our own children. So in February of 2022, I decided to enroll in the University of Minnesota - Twin Cities Online Bootcamp and I haven't looked back since. 
-            </p>
+            I am a full stack web developer leveraging a background in psychology to build a more intuitive user exprience. I recently earned a certificate in Full Stack Development from the University of Minnesota - Twin Cities, with newly developped skills in CSS, JavaScript, MySQL, and MERN. With each project, my goal is to find ways to best engage the user for an impactful experience. I recently applied aspects of UX and agile development in recent prooject. I worked on a team of five to develop a single-page MERN application that helps local dog owners engage with other dog owners. I'm excited to leverage my skills in a fast-paced, quality driven environment and team to build more better experiences on the web.    
+            </p>           
         </section>
     );
 }
