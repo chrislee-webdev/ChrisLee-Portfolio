@@ -12,9 +12,9 @@ function Nav({ currentPage, handlePageChange}) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                        >About me</a>
+                        <a href="/#" onClick={() => handlePageChange('Home')}
+                        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                        >Home</a>
                     </li> 
 
                     <li className="mx-2">
@@ -23,9 +23,9 @@ function Nav({ currentPage, handlePageChange}) {
                     </li>
 
                     <li className="mx-2">
-                        <span onClick={() => handlePageChange('Resume')}
-                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                        >Resume</span>
+                        <span onClick={() => handlePageChange('Skills')}
+                        className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
+                        >Skills</span>
                     </li>
 
                     <li className="mx-2">
