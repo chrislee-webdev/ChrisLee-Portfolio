@@ -11,7 +11,7 @@ function Portfolio() {
                 Download my resume 
                 <a href={require("../../assets/2022-Resume.pdf")} download className="download"> here</a>
             </div>
-            
+
             <div className="flex-row projectList">
                 <div className="projectInfo">
                     <a href="https://intelligent-fromage-55037.herokuapp.com/">
@@ -92,9 +92,9 @@ function Portfolio() {
                         alt="petpal"
                         className="img-thumbnail mx-1"
                     />
+                    </a>
                     <p>Pet Pal</p>
                     <a href="https://github.com/chrislee-webdev/pet-tinder">GitHub Repo</a>
-                    </a>
                 </div>
             </div>
         </section>

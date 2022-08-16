@@ -32,6 +32,10 @@ function Nav({ currentPage, handlePageChange}) {
                         <span onClick={() => handlePageChange('Portfolio')}
                         className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</span>
                     </li>
+
+                    <li>
+                        <a href="mailto:leechrs1@gmail.com">Email</a>
+                    </li>
                 </ul>
             </nav>
         </header>
