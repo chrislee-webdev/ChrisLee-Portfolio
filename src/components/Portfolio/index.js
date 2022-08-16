@@ -7,7 +7,7 @@ function Portfolio() {
     return (
         <section className="my-5">
             <h2 className="portfolioHeader">Portfolio</h2>
-            <div>
+            <div className="resume">
                 Download my resume 
                 <a href={require("../../assets/2022-Resume.pdf")} download className="download"> here</a>
             </div>
