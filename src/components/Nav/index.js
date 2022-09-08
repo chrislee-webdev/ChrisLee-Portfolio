@@ -12,9 +12,9 @@ function Nav({ currentPage, handlePageChange}) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="/#" onClick={() => handlePageChange('Home')}
+                        <span onClick={() => handlePageChange('Home')}
                         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                        >Home</a>
+                        >Home</span>
                     </li> 
 
                     {/* <li className="mx-2">
