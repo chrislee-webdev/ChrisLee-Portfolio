@@ -9,7 +9,7 @@ function Portfolio() {
             <h2 className="portfolioHeader">Portfolio</h2>
             <div className="resume">
                 Download my resume 
-                <a href={require("../../assets/2022-Resume.pdf")} download className="download"> here</a>
+                <a href={require("../../assets/2022 Resume Updated 12-22.pdf")} download className="download"> here</a>
             </div>
 
             <div className="flex-row projectList">
