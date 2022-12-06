@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chrislee-portfolio/static/css/main.9a3ea4d2.css",
-    "main.js": "/chrislee-portfolio/static/js/main.74ed856d.js",
+    "main.js": "/chrislee-portfolio/static/js/main.d727d36e.js",
     "static/js/787.61015307.chunk.js": "/chrislee-portfolio/static/js/787.61015307.chunk.js",
     "static/media/code-refactor.png": "/chrislee-portfolio/static/media/code-refactor.fe0b76c145d79754227b.png",
     "static/media/petpal.png": "/chrislee-portfolio/static/media/petpal.3f2675787a52b7ebfe38.png",
@@ -10,17 +10,17 @@
     "static/media/workday-scheduler.png": "/chrislee-portfolio/static/media/workday-scheduler.d2b9ed4a3d10a1a17de8.png",
     "static/media/note-taker.png": "/chrislee-portfolio/static/media/note-taker.39ad3e90e6a6c7f25f9d.png",
     "static/media/password-generator.png": "/chrislee-portfolio/static/media/password-generator.68f38ca965c1e82ebb66.png",
-    "static/media/2022-Resume.pdf": "/chrislee-portfolio/static/media/2022-Resume.eb619c71b38db30f0b81.pdf",
+    "static/media/2022 Resume Updated 12-22.pdf": "/chrislee-portfolio/static/media/2022 Resume Updated 12-22.0f750fecba627881e190.pdf",
     "static/media/profilePhoto2.jpeg": "/chrislee-portfolio/static/media/profilePhoto2.36d360884da48af27e00.jpeg",
     "static/media/GitHub_Logo_White.png": "/chrislee-portfolio/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
     "static/media/twitter2021.png": "/chrislee-portfolio/static/media/twitter2021.f963dcac51d5020e10f3.png",
     "index.html": "/chrislee-portfolio/index.html",
     "main.9a3ea4d2.css.map": "/chrislee-portfolio/static/css/main.9a3ea4d2.css.map",
-    "main.74ed856d.js.map": "/chrislee-portfolio/static/js/main.74ed856d.js.map",
+    "main.d727d36e.js.map": "/chrislee-portfolio/static/js/main.d727d36e.js.map",
     "787.61015307.chunk.js.map": "/chrislee-portfolio/static/js/787.61015307.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a3ea4d2.css",
-    "static/js/main.74ed856d.js"
+    "static/js/main.d727d36e.js"
   ]
 }
